@@ -1,0 +1,74 @@
+<html manifest="config\offline.appcache">
+  <head>
+    <title>FRC MScout Client 2019</title>
+    <link rel="shortcut icon" href="assets\first.ico" type="image/x-icon"/>
+    <link rel="stylesheet" type="text/css" href="bootstrap/bootstrap.min.css">
+    <script src="jquery/jquery-3.3.1.min.js"></script>
+    <script src="popper/popper.min.js"></script>
+    <script src="bootstrap/bootstrap.min.js"></script>
+    <script src="tiny-gesture/TinyGesture.js"></script>
+    <link rel="stylesheet" type="text/css" href="config\style.css">
+    <link rel="stylesheet" type="text/css" href="config\buttonStyle.css">
+    <link rel="stylesheet" type="text/css" href="config\initStyle.css">
+    <link rel="stylesheet" type="text/css" href="config\qrStyle.css">
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+  </head>
+  <body>
+    <div id="display"></div>
+    <div class="modal fade" data-backdrop="static" id="commentSection" tabindex="-1" role="dialog" aria-labelledby="commentSectionLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="commentSectionLabel">Comments</h3>
+          </div>
+          <div class="modal-body">
+            <textarea placeholder="(optional)" id="commentTextArea"></textarea>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-dismiss="modal" id="commentButton">Continue</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" data-backdrop="static" id="quitSection" tabindex="-1" role="dialog" aria-labelledby="quitSectionLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h3 class="modal-title" id="quitSectionLabel">Do you want to stop?</h3>
+          </div>
+          <div class="modal-body">
+            <div class="btn-group" role="group">
+              <button type="button" class="btn btn-danger" data-dismiss="modal" id="quitButtonStop">Stop Recording</button>
+              <button type="button" class="btn btn-primary" data-dismiss="modal" id="quitButtonFinish">Finish Recording</button>
+              <button type="button" class="btn btn-secondary" data-dismiss="modal" id="quitButtonContinue">Continue Recording</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="recordAlert" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="alert alert-warning" role="alert" style="width:100%;margin-bottom:0px;">No events were recorded. Previous scouted match is shown instead.</div>
+        </div>
+      </div>
+    </div>
+    <div class="modal fade" id="copiedAlert" tabindex="-1" role="dialog">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="alert alert-primary" role="alert" style="width:100%;margin-bottom:0px;">Match data copied to clipboard.</div>
+        </div>
+      </div>
+    </div>
+    <script src="config\publicTexts.js"></script>
+    <script src="config\eventConfig.js"></script>
+    <script src="js-adler32\adler32.js"></script>
+    <script src="qrious\dist\qrious.js"></script>
+    <script src="src\qrcodestreamer.js"></script>
+    <script src="src\init.js"></script>
+    <script src="src\dataprotocol.js"></script>
+    <script src="src\events.js"></script>
+    <script src="src\layout.js"></script>
+    <script src="src\main.js" defer></script>
+  </body>
+</html>
