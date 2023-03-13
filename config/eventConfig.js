@@ -268,13 +268,13 @@ var eventConfig =
   variables: [
     {
       variableName:"cargoCount",
-      variableTitle:"Cargo",
+      variableTitle:"Cone",
       variableLimit:[0,1],
       variableAmount:0
     },
     {
       variableName:"hatchCount",
-      variableTitle:"Hatch",
+      variableTitle:"Cube",
       variableLimit:[0,1],
       variableAmount:0
     }

@@ -1,7 +1,7 @@
 var initLayoutClass = {
   metadataObj: {},
   dispElement: {},
-  updateString: "Updated 2/28/19 20:05 - Version 1.2.0",
+  updateString: "Updated 3/8/23 23:34 - Version 1.3.0",
   initFunct: function() {
     this.metadataObj = {
       targetTeamNumber: 0,
@@ -17,7 +17,6 @@ var initLayoutClass = {
     this.dispElement.insertAdjacentHTML("beforeend",
       "<select class=\"form form-control\" id=\"langSelect\">" +
         "<option value=\"EN\">EN</option>" +
-        "<option value=\"ES\">ES</option>" +
       "</select>"
     );
     this.dispElement.insertAdjacentHTML("beforeend", "<input class=\"form form-control\" type=\"number\" id=\"targetTeamNumber\" placeholder=\"" + chosenTranslationObj.Form[1] + "\">");
