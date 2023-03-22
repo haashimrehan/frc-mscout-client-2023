@@ -21,8 +21,8 @@ var translationObj = {
       "Continue Recording"
     ],
     EventTitles: [
-      "Auto Crossed Cable",
       "Auto Climbed Ramp",
+      "Auto Balanced Ramp",
       "Picked up Cone",
       "Dropped Cone",
       "Picked up Cube",
@@ -43,8 +43,8 @@ var translationObj = {
       "Crossed Over Ramp"
     ],
     ButtonName: [
-      "Auto Crossed Cable",
       "Auto Climbed Ramp",
+      "Auto Balanced Ramp",
       "Picked up Cone",
       "Dropped Cone",
       "Picked up Cube",

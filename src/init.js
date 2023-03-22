@@ -1,7 +1,7 @@
 var initLayoutClass = {
   metadataObj: {},
   dispElement: {},
-  updateString: "Updated 3/8/23 23:34 - Version 1.3.0",
+  updateString: "Updated 3/13/23 20:36 - Version 1.5.0 - Haashim",
   initFunct: function() {
     this.metadataObj = {
       targetTeamNumber: 0,
@@ -57,14 +57,14 @@ var initLayoutClass = {
   },
   assignFunct: function() {
     var tmp = document.getElementById("sourceTeamNumber");
-    this.metadataObj.sourceTeamNumber = 4992;// Number.parseInt(tmp.value);
+    this.metadataObj.sourceTeamNumber =  Number.parseInt(tmp.value); //4992;//
     tmp = document.getElementById("targetTeamNumber");
-    this.metadataObj.targetTeamNumber = 4992;//Number.parseInt(tmp.value);
+    this.metadataObj.targetTeamNumber = Number.parseInt(tmp.value); //4992;//
     this.metadataObj.dateNumber = Date.now();
     tmp = document.getElementById("matchType");
     this.metadataObj.matchType = tmp.value;
     tmp = document.getElementById("matchNumber");
-    this.metadataObj.matchNumber = 2;//Number.parseInt(tmp.value);
+    this.metadataObj.matchNumber = Number.parseInt(tmp.value); // 2;//
   },
   checkFunct: function() {
     if(Number.isNaN(this.metadataObj.sourceTeamNumber)) {

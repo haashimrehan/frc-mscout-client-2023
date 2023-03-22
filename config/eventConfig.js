@@ -226,14 +226,14 @@ var eventConfig =
       buttonName:chosenTranslationObj.ButtonName[14],
       groupName:"habclimb",
       heightWeight:1,
-      widthWeight:0.3
+      widthWeight:0.35
     },
     {
       eventName:"habClimb2",
       buttonName:chosenTranslationObj.ButtonName[15],
       groupName:"habclimb",
       heightWeight:1,
-      widthWeight:0.266
+      widthWeight:0.35
     },
 /*    {
       eventName:"habClimb3",
@@ -247,21 +247,21 @@ var eventConfig =
       buttonName:chosenTranslationObj.ButtonName[17],
       groupName:"habclimb",
       heightWeight:1,
-      widthWeight:0.267
+      widthWeight:0.3
     },
-    {
+/*    {
       eventName:"crossField",
       buttonName:chosenTranslationObj.ButtonName[18],
       groupName:"defense",
       heightWeight:1,
       widthWeight:0.5
-    },
+    },*/
     {
       eventName:"defend",
       buttonName:chosenTranslationObj.ButtonName[19],
       groupName:"defense",
       heightWeight:1,
-      widthWeight:0.5
+      widthWeight:1.0
     }
 
   ],
