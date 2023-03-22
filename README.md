@@ -34,6 +34,12 @@ Clicking the back button will take you to and from the qr code display page and 
 
 The data will then be saved as a .fmt file under the data folder in the same folder as the laptop program. I will create documentation as to how it is stored soon, and will be working on programs during the build season to make it useful.
 
+
+## IOS Offline Setup
+https://user-images.githubusercontent.com/22567531/226788586-9090971f-c006-462a-9d10-29e96737eebd.MP4
+
+
+
 ## Why this system?
 This system not only operates completely offline (when you visit the website, it automatically caches itself) and uses multiple ways to transfer the data.
 The other part is that it is event-based. By logging the events that take place, you can extract data like cycle times, cycle accuracies, performance during auto/sandstorm, and more. Very few other systems does this and only looks at totals (total hatches on cargo ship in a match). 
