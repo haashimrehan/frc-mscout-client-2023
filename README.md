@@ -1,8 +1,4 @@
-# DEPRECIATED
-
-I've been working on Koronis Scouting System instead of this project since 2019. The problem with this project is that it's not very extendable for each game. KSS is a lot better in a lot of ways. Check it out here: https://web.koronis.cc
-
-# frc-mscout-client-2019
+# frc-mscout-client-2023
 
 Laptop System Repository: https://github.com/Alexbay218/frc-mscout-core/
 
@@ -16,16 +12,16 @@ You need a laptop running Windows with a webcam and a device that can access the
 Download the laptop program on https://github.com/Alexbay218/frc-mscout-core/releases/tag/v1.0.2
 
 
-Navigate to the website on the other device (https://alexbay218.github.io/frc-mscout-client-2019/)
+Navigate to the website on the other device (https://italkrobot.com/4992/scouting)
 
 
 Fill in the details on the website and click start.
 
 
-To start match scouting, click the top portion with time, cargo, and hatch displays.
+To start match scouting, click the top portion with time, cone, and cube displays.
 
 
-Notice the time is now counting down. Click on the other box that corresponds to each action ("Pick up hatch", etc.)
+Notice the time is now counting down. Click on the other box that corresponds to each action ("Pick up cone", etc.)
 
 
 Wait for the time to reach -10, which will automatically end the match (this is the only way currently to end the match).
