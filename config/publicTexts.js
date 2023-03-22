@@ -38,7 +38,7 @@ var translationObj = {
       "Climbed Ramp",
       "Balanced",
       "Hab Climb Lvl 3",
-      "Failed Hab Climb",
+      "Failed Ramp Climb",
       "Played Defense",
       "Crossed Over Ramp"
     ],
